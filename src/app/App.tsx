@@ -1,6 +1,8 @@
+// Core
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import { appRoutes } from './shared/routes/routes';
+// Routes
+import { appRoutes } from '@/shared/routes/routes';
 
 export const App = () => {
 	return (

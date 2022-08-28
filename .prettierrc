@@ -3,25 +3,5 @@
 	"tabWidth": 2,
 	"useTabs": true,
 	"semi": true,
-	"singleQuote": true,
-	"importOrder": [
-		"<THIRD_PARTY_MODULES>",
-		"^@/components/(.*)$",
-		"^@/ui/(.*)$",
-		"^@/store/(.*)$",
-		"^@/hooks/(.*)$",
-		"^@/shared/(.*)$",
-		"^@/pages/(.*)$",
-		"^@/services/(.*)$",
-		"^@/assets/(.*)$",
-		"^@/utils/(.*)$",
-		"^@/configs/(.*)$",
-		"^@/providers/(.*)$",
-		"^@/data/(.*)$",
-		"^[../]",
-		"^[./]",
-		"(.scss)$"
-	],
-	"importOrderSeparation": true,
-	"importOrderSortSpecifiers": true
+	"singleQuote": true
 }

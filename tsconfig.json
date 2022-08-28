@@ -15,20 +15,13 @@
 		"isolatedModules": true,
 		"noEmit": true,
 		"jsx": "react-jsx",
-		"baseUrl": "src",
+		"baseUrl": "./src",
 		"paths": {
-			"@/assets/*": ["assets/*"],
-			"@/components/*": ["components/*"],
-			"@/ui/*": ["components/ui/*"],
-			"@/configs/*": ["configs/*"],
-			"@/data/*": ["data/*"],
-			"@/hooks/*": ["hooks/*"],
-			"@/pages/*": ["pages/*"],
-			"@/providers/*": ["providers/*"],
-			"@/services/*": ["services/*"],
-			"@/shared/*": ["shared/*"],
-			"@/store/*": ["store/*"],
-			"@/utils/*": ["utils/*"]
+			"@/dashboard/*": ["app/dashboard/*"],
+			"@/products/*": ["app/products/*"],
+			"@/shared/*": ["app/shared/*"],
+			"@/app/*": ["app/*"],
+			"@/assets/*": ["assets/*"]
 		}
 	},
 	"include": ["**/*.ts", "**/*.tsx"],

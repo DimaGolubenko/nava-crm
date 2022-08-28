@@ -1,9 +1,15 @@
+// Core
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import { App } from './App';
+// Providers
+import { HeadProvider } from './app/shared/providers/HeadProvider';
+
+// Components
+import { App } from './app/App';
+
+// Styles
 import './index.scss';
-import { HeadProvider } from './providers/HeadProvider';
 
 const root = ReactDOM.createRoot(
 	document.getElementById('root') as HTMLElement

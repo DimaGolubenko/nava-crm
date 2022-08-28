@@ -1,5 +1,5 @@
 import styles from './Products.module.scss';
 
 export const Products = () => {
-	return <main className={styles.products}>Products</main>;
+	return <div className={styles.products}>Products</div>;
 };
