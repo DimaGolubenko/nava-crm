@@ -1,2 +1,21 @@
-.appHeader {
+.inner {
+	@apply text-center flex items-center justify-between py-2 text-gray-600;
+}
+
+.burger {
+	@apply block;
+	@media (min-width: $md) {
+		@apply hidden;
+	}
+}
+
+.sidebarBurger {
+	@apply hidden text-gray-600;
+	@media (min-width: $md) {
+		@apply block;
+	}
+}
+
+.logo {
+	@apply text-lg font-medium;
 }

@@ -1,2 +1,6 @@
-.appLayout {
+.layout {
+	@apply flex min-h-screen relative;
+}
+.body {
+	@apply flex flex-col w-full px-5;
 }

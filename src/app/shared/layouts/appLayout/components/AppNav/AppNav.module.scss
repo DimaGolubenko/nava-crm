@@ -1,2 +1,21 @@
 .appNav {
+	@apply translate-center text-center;
+	@media (min-width: $md) {
+		@apply pt-5;
+	}
+}
+.item {
+	@apply inline-flex items-center mb-2;
+}
+.icon {
+	@apply mr-2 fill-gray-500;
+}
+.title {
+	@apply text-lg;
+}
+.titleHidden {
+	@apply block;
+	@media (min-width: $md) {
+		@apply hidden;
+	}
 }

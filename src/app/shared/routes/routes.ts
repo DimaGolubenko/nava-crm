@@ -10,10 +10,12 @@ export const appRoutes: IRoute[] = [
 		path: '/',
 		title: 'Панель',
 		Component: Dashboard,
+		icon: 'AiFillDashboard',
 	},
 	{
 		path: '/products',
 		title: 'Товари',
 		Component: Products,
+		icon: 'MdDryCleaning',
 	},
 ];

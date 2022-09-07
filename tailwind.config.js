@@ -9,6 +9,12 @@ module.exports = {
 			colors: {
 				primary,
 			},
+			transitionProperty: {
+				width: 'width',
+			},
+			margin: {
+				'1/2': '50%',
+			},
 		},
 	},
 	plugins: [
@@ -19,6 +25,10 @@ module.exports = {
 					display: 'flex',
 					alignItems: 'center',
 					justifyContent: 'space-between',
+				},
+				'.translate-center': {
+					marginLeft: '50%',
+					transform: 'translateX(-50%)',
 				},
 			});
 		}),

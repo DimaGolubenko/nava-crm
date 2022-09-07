@@ -9,4 +9,13 @@ module.exports = {
 			'@/assets': path.resolve(__dirname, 'src/assets'),
 		},
 	},
+	style: {
+		sass: {
+			loaderOptions: {
+				additionalData: `
+          @import '@/assets/styles/base/_variables.scss';
+        `,
+			},
+		},
+	},
 };

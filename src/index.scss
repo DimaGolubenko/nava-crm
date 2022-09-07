@@ -3,4 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import './assets/styles/globals.scss';
+// Base
+@import './assets/styles/base/variables';
+
+@import './assets/styles/globals';

@@ -1,0 +1,27 @@
+.sidebar {
+	@apply fixed top-0 left-0 bottom-0 right-0 w-full overflow-hidden;
+	@apply bg-gray-100 transition-width duration-200 ease-linear;
+
+	@media (min-width: $md) {
+		@apply relative w-14;
+	}
+
+	&.closed {
+		@apply w-0;
+		@media (min-width: $md) {
+			@apply w-14;
+		}
+	}
+
+	&.wide {
+		@media (min-width: $md) {
+			@apply w-60;
+		}
+	}
+}
+.close {
+	@apply absolute top-2 right-2 w-10 h-10 fill-gray-500;
+	@media (min-width: $md) {
+		@apply hidden;
+	}
+}
